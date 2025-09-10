@@ -45,7 +45,8 @@ const AddHabitForm = () => {
             labelId="demo-simple-select-label"
             id="demo-simple-select"
             value={frequency}
-            label="frequency"
+            label="Frequency"
+
             onChange={(e) => setFrequency(e.target.value as "daily" | "weekly")}
           >
             <MenuItem value="daily">daily</MenuItem>
